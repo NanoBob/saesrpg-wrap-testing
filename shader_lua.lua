@@ -102,7 +102,7 @@ function setShaderCommandHandler(command, url)
 	end
 
 	if (lastVehicle) then
-		removeShaderFromVehicle(shader, vehicle)
+		removeShaderFromVehicle(shader, lastVehicle)
 	end
 
 	downloadTexture(url, function(texture)
