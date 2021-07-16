@@ -1,6 +1,6 @@
 
 local wrapTextures = {
-	emap = true,
+	remap = true,
 	main_wrap = true,
 	combinetexpage128 = true,
 	nrg50092body128 = true,
